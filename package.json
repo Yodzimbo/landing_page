@@ -1,0 +1,23 @@
+{
+  "name": "zadanie11.8",
+  "version": "1.0.0",
+  "description": "zadanie",
+  "main": "index.js",
+  "scripts": {
+    "test": "teta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "zadanie"
+  ],
+  "author": "Patryk",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}

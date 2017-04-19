@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.row {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Lato', sans-serif; }
+
+/******header*******/
+.jumbotron {
+  background-image: url("http://iroot.pl/landing/images/header.png");
+  height: 1070px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; }
+  .jumbotron .logo {
+    text-align: center;
+    margin-top: 170px; }
+
+.slogan {
+  width: 35%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 10px;
+  margin-top: 10%; }
+  .slogan h1 {
+    text-transform: uppercase; }
+  .slogan p {
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 500;
+    line-height: 25px; }
+
+.mouse {
+  font-size: 40px;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 20%; }
+  .mouse a {
+    text-decoration: none;
+    color: #fff; }
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 35px; } }
+
+/******about******/
+.about {
+  border-bottom: solid 1px #3c3c3c;
+  border-right: solid 1px #3c3c3c;
+  border-left: solid 1px #3c3c3c;
+  padding-bottom: 1%;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 140px; }
+  .about h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: -15px;
+    position: absolute;
+    padding-bottom: 50px;
+    line-height: 25px; }
+  .about h1:after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: #3c3c3c;
+    color: red;
+    top: 15px;
+    left: 20%; }
+  .about h1:before {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: #3c3c3c;
+    color: red;
+    top: 15px;
+    right: 20%; }
+  .about p {
+    padding: 40px 70px;
+    line-height: 25px; }
+
+@media screen and (max-width: 767px) {
+  .about p {
+    padding: 40px 5px;
+    line-height: 25px; } }
+
+/*****services******/
+.services {
+  background-image: url("http://iroot.pl/landing/images/tabpen.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 488px;
+  margin-top: 140px;
+  padding-top: 5px; }
+  .services .serv {
+    border-bottom: solid 1px #fff;
+    border-right: solid 1px #fff;
+    border-left: solid 1px #fff;
+    padding-bottom: 1%;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 140px; }
+    .services .serv h1 {
+      font-size: 30px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      margin-top: -15px;
+      position: absolute;
+      color: #fff; }
+    .services .serv h1:after {
+      position: absolute;
+      content: "";
+      width: 20%;
+      height: 1px;
+      background: #fff;
+      color: red;
+      top: 15px;
+      left: 20%; }
+    .services .serv h1:before {
+      position: absolute;
+      content: "";
+      width: 20%;
+      height: 1px;
+      background: #fff;
+      color: red;
+      top: 15px;
+      right: 20%; }
+    .services .serv p {
+      padding: 40px 100px;
+      color: #fff;
+      line-height: 25px; }
+
+@media screen and (max-width: 767px) {
+  .services .serv {
+    margin-top: 10px; }
+    .services .serv p {
+      padding: 40px 4px;
+      color: #fff;
+      line-height: 25px; } }
+
+/*****What we do*****/
+.whatwe {
+  margin-top: 140px;
+  text-align: center; }
+
+.what_row,
+.what_col {
+  padding: 0px;
+  margin: 0px; }
+  .what_row .what_th,
+  .what_col .what_th {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 0px solid transparent; }
+
+.wedo {
+  border-left: 1px solid #3c3c3c;
+  border-right: 1px solid #3c3c3c;
+  border-bottom: 1px solid #3c3c3c;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px; }
+  .wedo h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: -15px;
+    position: absolute;
+    color: #3c3c3c; }
+  .wedo h1:after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: #3c3c3c;
+    color: red;
+    top: 15px;
+    left: 20%; }
+  .wedo h1:before {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: #3c3c3c;
+    color: red;
+    top: 15px;
+    right: 20%; }
+  .wedo h3 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    color: #3c3c3c; }
+  .wedo p {
+    padding: 40px 0px;
+    color: #3c3c3c;
+    line-height: 25px; }
+
+@media screen and (max-width: 767px) {
+  .wedo {
+    margin-top: 10px; }
+    .wedo p {
+      padding: 40px 4px;
+      color: #fff;
+      line-height: 25px; } }
+
+/*****Gallery******/
+.gallery {
+  margin-top: 140px; }
+
+.container-fluid {
+  padding: 0px; }
+
+.gal_btn1,
+.gal_btn2,
+.gal_btn3,
+.gal_btn4,
+.gal_btn5,
+.gal_btn6 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 0px;
+  padding: 0px;
+  border: none;
+  background-color: transparent; }
+
+.gal_btn1 {
+  background-image: url("http://iroot.pl/landing/images/1.png"); }
+
+.gal_btn2 {
+  background-image: url("http://iroot.pl/landing/images/2.png"); }
+
+.gal_btn3 {
+  background-image: url("http://iroot.pl/landing/images/3.png"); }
+
+.gal_btn4 {
+  background-image: url("http://iroot.pl/landing/images/4.png"); }
+
+.gal_btn5 {
+  background-image: url("http://iroot.pl/landing/images/5.png"); }
+
+.gal_btn6 {
+  background-image: url("http://iroot.pl/landing/images/6.png"); }
+
+.gal_col {
+  padding: 5px;
+  border: none; }
+  .gal_col h1 {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-transform: uppercase;
+    left: 5%;
+    bottom: 10%; }
+
+#myModalLabel {
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #3c3c3c;
+  border-color: #3c3c3c; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #3c3c3c;
+  border-color: #3c3c3c; }
+
+.btn-primary:hover {
+  color: #fff;
+    color-background-color: #3c3c3c;
+      color-background-color-border-color: #3c3c3c; }
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #3c3c3c;
+  border-color: #3c3c3c; }
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none; }
+
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background-color: #3c3c3c;
+  border-color: #3c3c3c; }
+
+.modal-body img {
+  width: 100%; }
+
+/*****contact*****/
+.contact {
+  border-bottom: solid 1px #3c3c3c;
+  border-right: solid 1px #3c3c3c;
+  border-left: solid 1px #3c3c3c;
+  padding-bottom: 1%;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 140px; }
+  .contact h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: -15px;
+    position: absolute;
+    color: #3c3c3c; }
+  .contact h1:after {
+    position: absolute;
+    content: "";
+    width: 15%;
+    height: 1px;
+    background: #3c3c3c;
+    color: red;
+    top: 15px;
+    left: 20%; }
+  .contact h1:before {
+    position: absolute;
+    content: "";
+    width: 15%;
+    height: 1px;
+    background: #3c3c3c;
+    color: red;
+    top: 15px;
+    right: 20%; }
+  .contact p {
+    padding: 40px 100px;
+    color: #3c3c3c;
+    line-height: 25px; }
+
+@media screen and (max-width: 767px) {
+  .contact p {
+    padding: 40px 4px;
+    color: #3c3c3c;
+    line-height: 25px; }
+  .con_btn h3 {
+    width: 40%;
+    height: 50px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    line-height: 35px; } }
+
+.con_btn {
+  width: 40%;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase; }
+
+.con_btn:hover {
+  background-color: #3c3c3c; }
+
+/*****Footer*****/
+.copy {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .copy .logo {
+    text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
