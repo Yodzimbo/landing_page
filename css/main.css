@@ -65,13 +65,14 @@ h1, h2, h3, h4, h5, h6, p, a {
     margin-top: 170px; }
 
 .slogan {
-  width: 35%;
+  width: 65%;
   margin: 0 auto;
   color: #fff;
   font-size: 10px;
   margin-top: 10%; }
   .slogan h1 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center; }
   .slogan p {
     font-size: 15px;
     margin-top: 30px;
@@ -117,7 +118,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   .about h1:after {
     position: absolute;
     content: "";
-    width: 20%;
+    width: 15%;
     height: 1px;
     background: #3c3c3c;
     color: red;
@@ -126,7 +127,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   .about h1:before {
     position: absolute;
     content: "";
-    width: 20%;
+    width: 15%;
     height: 1px;
     background: #3c3c3c;
     color: red;
@@ -139,7 +140,37 @@ h1, h2, h3, h4, h5, h6, p, a {
 @media screen and (max-width: 767px) {
   .about p {
     padding: 40px 5px;
-    line-height: 25px; } }
+    line-height: 25px; }
+  .about h1 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: -15px;
+    position: absolute;
+    padding-bottom: 50px;
+    line-height: 25px; }
+  .about h1:after {
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 1px;
+    background: #3c3c3c;
+    color: red;
+    top: 15px;
+    left: 20%; }
+  .about h1:before {
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 1px;
+    background: #3c3c3c;
+    color: red;
+    top: 15px;
+    right: 20%; } }
 
 /*****services******/
 .services {
@@ -173,7 +204,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     .services .serv h1:after {
       position: absolute;
       content: "";
-      width: 20%;
+      width: 15%;
       height: 1px;
       background: #fff;
       color: red;
@@ -182,7 +213,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     .services .serv h1:before {
       position: absolute;
       content: "";
-      width: 20%;
+      width: 15%;
       height: 1px;
       background: #fff;
       color: red;
@@ -195,11 +226,40 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 @media screen and (max-width: 767px) {
   .services .serv {
-    margin-top: 10px; }
+    margin-top: 20px; }
     .services .serv p {
       padding: 40px 4px;
       color: #fff;
-      line-height: 25px; } }
+      line-height: 15px; }
+    .services .serv h1 {
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      margin-top: -15px;
+      position: absolute;
+      color: #fff; }
+    .services .serv h1:after {
+      position: absolute;
+      content: "";
+      width: 10%;
+      height: 1px;
+      background: #fff;
+      color: red;
+      top: 15px;
+      left: 20%; }
+    .services .serv h1:before {
+      position: absolute;
+      content: "";
+      width: 10%;
+      height: 1px;
+      background: #fff;
+      color: red;
+      top: 15px;
+      right: 20%; } }
 
 /*****What we do*****/
 .whatwe {
@@ -239,7 +299,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   .wedo h1:after {
     position: absolute;
     content: "";
-    width: 20%;
+    width: 15%;
     height: 1px;
     background: #3c3c3c;
     color: red;
@@ -248,7 +308,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   .wedo h1:before {
     position: absolute;
     content: "";
-    width: 20%;
+    width: 15%;
     height: 1px;
     background: #3c3c3c;
     color: red;
@@ -273,9 +333,50 @@ h1, h2, h3, h4, h5, h6, p, a {
   .wedo {
     margin-top: 10px; }
     .wedo p {
-      padding: 40px 4px;
-      color: #fff;
-      line-height: 25px; } }
+      padding: 40px 0px;
+      color: #000;
+      line-height: 20px;
+      width: 100%; }
+    .wedo h1 {
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      margin-top: -15px;
+      position: absolute;
+      color: #3c3c3c; }
+    .wedo h1:after {
+      position: absolute;
+      content: "";
+      width: 10%;
+      height: 1px;
+      background: #3c3c3c;
+      color: red;
+      top: 15px;
+      left: 20%; }
+    .wedo h1:before {
+      position: absolute;
+      content: "";
+      width: 10%;
+      height: 1px;
+      background: #3c3c3c;
+      color: red;
+      top: 15px;
+      right: 20%; }
+    .wedo h3 {
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      position: absolute;
+      color: #3c3c3c;
+      margin-bottom: 15px; } }
 
 /*****Gallery******/
 .gallery {
@@ -427,16 +528,49 @@ fieldset[disabled] .btn-primary.focus {
     padding: 40px 4px;
     color: #3c3c3c;
     line-height: 25px; }
-  .con_btn h3 {
-    width: 40%;
-    height: 50px;
-    font-size: 15px;
-    font-family: 'Lato', sans-serif;
+  .contact h1 {
+    font-size: 20px;
+    font-weight: 600;
     text-transform: uppercase;
-    line-height: 35px; } }
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: -15px;
+    position: absolute;
+    color: #3c3c3c; }
+  .contact h1:after {
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 1px;
+    background: #3c3c3c;
+    color: red;
+    top: 15px;
+    left: 20%; }
+  .contact h1:before {
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 1px;
+    background: #3c3c3c;
+    color: red;
+    top: 15px;
+    right: 20%; }
+  .con_btn {
+    width: 40%; }
+    .con_btn h3 {
+      width: 100%;
+      height: 50px;
+      font-size: 10px;
+      font-family: 'Lato', sans-serif;
+      text-transform: uppercase;
+      line-height: 35px;
+      text-align: center;
+      margin: 0 auto; } }
 
 .con_btn {
-  width: 40%;
+  width: 50%;
   height: 50px;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
